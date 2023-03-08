@@ -1,0 +1,327 @@
+/* imports */
+@font-face {
+    font-family: bebasneue;
+    src: url(../assets/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+/* reset */
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #080324;
+    color: white;
+}
+
+.layout-grid {
+    width: 100%;
+    max-width: 1220px;
+    margin: 0% auto;
+
+}
+
+/* Header */
+header {
+    height: 60px;
+    background-color: #F9003D;
+
+    justify-content: flex-end
+}
+
+header .header-flex {
+    display: flex;
+    justify-content: flex-end;
+    align-items: stretch;
+
+    height: 100%;
+}
+
+header nav {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header a {
+    font-family: bebasneue;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 15px 25px;
+    text-shadow: 2px 2px 20px black;
+    letter-spacing: 2px;
+
+}
+
+header nav a:hover {
+    background-color: white;
+    color: #F9003D;
+    text-shadow: 0px 0px 5px rgba(249, 0, 61, 0.3);
+    display: none;
+}
+
+/* Main */
+
+main .banner {
+    height: 740px;
+    background-image: url(../images/imagem-fundo-banner\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+main .banner-flex {
+    display: flex;
+    height: 100%;
+    align-items: center;
+
+}
+
+main .banner-flex #banner-infobox {
+    width: 560px;
+}
+
+main .banner-flex h1 {
+    margin-bottom: 40px;
+    font-family: bebasneue;
+    color: white;
+    font-size: 96px;
+}
+
+main .banner-flex p {
+    margin-bottom: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 53px;
+    color: #F9003D;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+/* SOBRE*/
+/* div sobre os projetos */
+main .sobre {
+    height: 800px;
+
+}
+
+main .sobre h2 {
+    font-family: bebasneue;
+    color: #F9003D;
+    font-size: 64px;
+    margin-top: 37px;
+    margin-bottom: 42px;
+}
+
+main .sobre .linha {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* div participantes */
+main .sobre .linha .participantes {
+    width: 590px;
+}
+
+main .sobre .linha .participantes h3 {
+    font-family: 'Courier New', Courier, monospace;
+    size: 64px;
+    margin-top: -10px;
+}
+
+main .sobre .linha .participantes h4 {
+    font-family: bebasneue;
+    width: 557px;
+    height: 154px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-size: 64px;
+    color: #FFAF00;
+}
+
+main .sobre .participantes p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+/* div informações */
+
+main .sobre .informações {
+    height: 193px;
+    margin-top: 150px;
+    background-size: cover;
+    background-position: bottom;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/imagem-fundo-info\ 1.png);
+
+}
+
+main .sobre .informações .titulos {
+    width: 1035px;
+    height: 34px;
+    margin-top: 10px;
+    margin-left: -15px;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+/* container articles */
+main .sobre .informações .articles {
+    width: 1200px;
+    height: 110px;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/* article */
+main .sobre .informações .articles article {
+    display: flex;
+    flex-direction: column;
+}
+
+main .sobre .informações .articles article p {
+    width: 289px;
+    height: 100px;
+    border: 2px solid #a259f7;
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #a259f7;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+/* rodape */
+footer {
+    height: 598px;
+    margin-top: 140px;
+    background-size: cover;
+    background-image: url(../images/imagem-fundo-ranking\ 2.png);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer h1 {
+    margin-right: 759px;
+}
+
+footer .endereco {
+    width: 899px;
+    height: 203.36px;
+    background-color: #010010;
+    border: 2px solid #340B65;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* div p e h1 */
+footer .container-endereço {
+    margin-top: 100px;
+    /* margin-left: 200px */
+    position: relative;
+
+}
+
+footer .endereco p {
+    width: 435px;
+    height: 88px;
+    margin-left: -374px;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    color: #a259f7;
+
+}
+
+footer h1 {
+    width: 418px 49px;
+    font-family: bebasneue;
+    font-size: 69px;
+    color: #FFAF00;
+}
+
+footer img {
+    position: absolute;
+    margin-left: 558px;
+    margin-top: -274px;
+}
+
+
+footer .container-final {
+    width: 1480px;
+    height: 82px;
+    margin-top: 123px;
+    background-color: #F9003D;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: end;
+
+}
+
+/* MEDIA QUERIES */
+
+/* Smartphones >= ate 767px*/
+@media screen and (max-width: 767px) {
+
+    .mostrarmenu{
+        left: 0;
+        opacity: 1;
+    }
+    main, footer {
+        display: none;
+    }
+
+    /* icone */
+    header #menu-mobile {
+        display: block;
+        color: white;
+
+    }
+
+    header nav {
+        position: fixed;
+        top: 60px;
+        left: -80vw;
+         width: 80vw;  
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #F9003D;
+        opacity: 0;
+
+        transition: left 0.4s; opacity: 0.5;
+
+    }
+}
