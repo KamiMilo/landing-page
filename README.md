@@ -1,3 +1,3 @@
 # landing-page
-link para vsualizar:
+link para visualizar:
  https://kamimilo.github.io/landing-page/
